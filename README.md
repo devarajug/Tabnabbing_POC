@@ -7,7 +7,7 @@ Tabnabbing is an attack where a page linked from the target page is able to rewr
 
 As well as the target site being able to overwrite the target page, any http link can be spoofed to overwrite the target page if the user is on an unsecured network, for example a public wifi hotspot. The attack is possible even if the target site is only available via https as the attacker only needs to spoof the http site that is being linked to.
 
-Reference: [Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing)
+Reference: [Tabnabbing OWASP](https://owasp.org/www-community/attacks/Reverse_Tabnabbing)
 
 # How POC Works
 
