@@ -1,0 +1,11 @@
+{% extends 'Base/innerBase.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/homePage.css' %}">
+{% endblock %}
+{% block content %}
+	<br><br><br><br><br><br>
+	<h1 class="welcome"><span>Welcome</span> <span>{{user.firstname}}</span></h1>
+	<br><br>
+{% endblock %}

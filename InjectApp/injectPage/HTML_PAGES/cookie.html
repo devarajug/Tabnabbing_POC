@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title>cookie</title>
+	</head>
+	<body>
+		<h3> cookie information present here</h3>
+	</body>
+	<script>
+   	if (window.opener != null && !window.opener.closed){
+    	window.opener.location = "http://127.0.0.1:8090/va/login/";
+    	cosole.log(document.cookie);
+  	}
+	</script>
+</html>

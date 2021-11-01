@@ -1,0 +1,19 @@
+body{
+
+    margin:0;
+    padding:0;
+    overflow: auto;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+}
+.navbar{
+     min-height: 70px;
+}
+a:hover{
+    cursor: pointer;
+}
+.navbar-nav {
+      padding: 5 15px;
+      height: 70px;
+      line-height: 70px;
+}
