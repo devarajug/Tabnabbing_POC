@@ -13,7 +13,7 @@ Reference: [Tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbi
 
 - First execute `startIjectionApp.bat` file 
 - Second execute `startSourceApp.bat` file 
-- Once `startSourceApp.bat` file executed copy the url `127.0.0.1:8000` and paste it in browser window.
+- Once `startSourceApp.bat` file executed copy the url `http://127.0.0.1:8000` and paste it in browser window.
 - Then login page dispalys, enter 
 ``` 
 username : user@poc.com
